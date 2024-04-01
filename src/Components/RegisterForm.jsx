@@ -208,7 +208,7 @@ alert("Form Successfully Submitted!");
 
         <div id="button-submit"> 
           <Form.Group className="mb-4 d-flex justify-content-center"> 
-            <Button type="submit" id="button-submit" onClick={ handleSubmit }>SUBMIT</Button> 
+            <Button type="submit" id="button-submit" onClick={ onSubmit }>SUBMIT</Button> 
           </Form.Group>
          
         </div>
