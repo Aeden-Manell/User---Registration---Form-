@@ -82,6 +82,9 @@ const handleSubmit = (event) => {
 };
 
 
+const onSubmit = () => {
+alert("Form Successfully Submitted!");
+};
 
   return (
   <div className="form"> 
@@ -207,7 +210,7 @@ const handleSubmit = (event) => {
           <Form.Group className="mb-4 d-flex justify-content-center"> 
             <Button type="submit" id="button-submit" onClick={ handleSubmit }>SUBMIT</Button> 
           </Form.Group>
-          <h1>{ firstname }</h1>
+         
         </div>
       </Form>
     </div>
